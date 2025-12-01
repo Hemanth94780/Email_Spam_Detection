@@ -1,0 +1,30 @@
+# SBT
+target/
+project/target/
+project/project/
+
+# Scala
+*.class
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (exclude large CSV files)
+*.csv
+emails.csv
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Logs
+logs/
+*.out
